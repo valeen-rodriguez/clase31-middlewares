@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f7f7f7;
+}
+
+.img_contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttom_body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttom_body button {
+  border-radius: 40px;
+  border: none;
+  color: green;
+  background-color: #d6d6d6;
+}
